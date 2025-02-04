@@ -1,0 +1,6 @@
+@use './variable.scss' as *;
+
+// mixin qui gere l'affichage du text
+@mixin showContent {
+  animation: showContent $animation-duration $animation-delay linear 1 forwards;
+}

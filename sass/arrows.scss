@@ -1,0 +1,56 @@
+.container-slider .arrows {
+  position: absolute;
+  inset: 90% 35% auto auto;
+  z-index: 100;
+  width: 300px;
+  max-width: 30%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  button {
+    width: 40px;
+    height: 40px;
+    background-color: #eee4;
+    border: none;
+    border-radius: 50%;
+    color: #fff;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.5s;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #fff;
+      color: #000;
+    }
+  }
+}
+
+// grand ecran mobile
+@media screen and (min-width: 480px) {
+  .container-slider .arrows {
+    inset: 90% 30% auto auto;
+  }
+}
+
+// tablette
+@media screen and (min-width: 767px) {
+  .container-slider .arrows {
+    inset: 90% 25% auto auto;
+  }
+}
+
+// full hd
+@media screen and (min-width: 1024px) {
+  .container-slider .arrows {
+    inset: 80% 55% auto auto;
+  }
+}
+
+// Quad hd
+@media screen and (min-width: 1920px) {
+  .container-slider .arrows {
+    inset: 80% auto auto 5%;
+  }
+}

@@ -1,0 +1,60 @@
+@use './keyframes.scss' as*;
+
+// effet lors du clic sur le bouton prev
+.container-slider {
+  &.prev {
+    .slide-principal .element:nth-child(2) {
+      z-index: 2;
+
+      img {
+        animation: outFrame 0.7s linear 1 forwards;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+
+      .content-info {
+
+        .title-project,
+        .text,
+        .buttons {
+          animation: contentOut 1s linear 1 forwards !important;
+        }
+      }
+    }
+
+    .slide-vignette .item:nth-child(1) {
+      overflow: hidden;
+      opacity: 0;
+      animation: showThumbnail 0.7s linear 1 forwards;
+    }
+  }
+
+  &.next,
+  &.prev {
+    .arrows button {
+      pointer-events: none;
+    }
+  }
+
+  // tablette
+  @media screen and (min-width: 767px) {
+    .slide-principal .element .content-info {
+      inset: 15% auto auto 45%;
+    }
+  }
+
+  // full hd
+  @media screen and (min-width: 1024px) {
+    .slide-principal .element .content-info {
+      inset: 15% auto auto 40%;
+    }
+  }
+
+  // Quad hd
+  @media screen and (min-width: 1920px) {
+    .slide-principal .element .content-info {
+      inset: 22% auto auto 25%;
+    }
+  }
+}

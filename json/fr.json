@@ -1,0 +1,47 @@
+{
+  "projects":{
+    "title":"Mes Projets",
+    "infoProject":[
+      {
+        "id":"a5",
+        "title":"riding cities",
+        "description":"Site web d'une association de skate, fait en HTML et CSS",
+        "tag":"visiter le site web",
+        "link":"https://cedric-developpeur-web.github.io/HtlmCss_RidingCitites-formation-/",
+        "picture":[{"src":"./picture/RidingCitites.webp", "alt":"image du projet RidingCities"}]
+      },
+      {
+        "id":"a6",
+        "title":"Booki",
+        "description":"Site web d'une agence de voyage, fait en HTML et CSS.",
+        "tag":"visiter le site web",
+        "link":"https://cedric-developpeur-web.github.io/HtmlCss_Booki-formation/",
+        "picture":[{"src":"./picture/Booki.webp","alt":"image du projet Booki"}]
+      },
+      {
+        "id":"a7",
+        "title":"Ohmyfood",
+        "description":"Site web de réservation pour la restauration, fait en HTML SASS.",
+        "tag":"visiter le site web",
+        "link":"https://cedric-developpeur-web.github.io/Ohmyfood_formation/",
+        "picture":[{"src":"./picture/Ohmyfood.webp","alt":"image du projet Ohmyfood"}]
+      },
+      {
+        "id":"a8",
+        "title":"Print-It",
+        "description":"Site web entreprise d'imprimerie, HTML,CSS, JAVASCRIPT",
+        "tag":"visiter le site web",
+        "link":"https://cedric-developpeur-web.github.io/Javascript_Print_it_formation/",
+        "picture":[{"src":"./picture/Print_it.webp", "alt":"image du projet Print-It"}]
+      },
+      {
+        "id":"a9",
+        "title":"Nina Carducci",
+        "description":"Site web d'une photographe freelance, pratique SEO",
+        "tag":"visiter le site web",
+        "link":"https://cedric-developpeur-web.github.io/Seo_NinaCarducci_formation/",
+        "picture":[{"src":"./picture/NinaCarducci.webp","alt":"image du projet Nina Carducci"}]
+      }
+    ]
+  }
+}

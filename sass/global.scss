@@ -1,0 +1,18 @@
+@use './variable.scss' as *;
+
+body {
+  margin: 0;
+  background: $color-body;
+}
+
+a,
+p,
+li {
+  color: $color-text-lien;
+}
+
+h2,
+h3,
+h4 {
+  color: #fff;
+}

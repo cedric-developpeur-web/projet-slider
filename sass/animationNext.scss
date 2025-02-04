@@ -1,0 +1,29 @@
+@use './keyframes.scss' as*;
+
+// effet lors du click sur le bouton next
+.container-slider {
+  &.next {
+    .slide-principal .element:nth-child(1) img {
+      width: 150px;
+      height: 220px;
+      position: absolute;
+      bottom: 50px;
+      left: 50%;
+      border-radius: 30px;
+      animation: showImage 0.7s linear 1 forwards;
+    }
+
+    .slide-vignette {
+      animation: effectNext 1s linear 1 forwards;
+
+      .item:nth-last-child(1) {
+        overflow: hidden;
+        animation: showThumbnail 0.7s linear 1 forwards;
+      }
+    }
+  }
+
+  &.prev .slide-principal .element img {
+    z-index: 100;
+  }
+}
